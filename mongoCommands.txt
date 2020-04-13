@@ -1,0 +1,32 @@
+show dbs
+
+use 'collection_name'
+
+show collections
+
+db.users.find()
+
+db.campgrounds.find()
+
+//Shows hidden folders
+ls -a
+
+//commit message -
+convention to be in present tense
+
+git revert --no-commit commitId..HEAD
+
+'use strict' - prevents the user from accidentally creating Global variables.
+this -> Global -> Window object
+this -> inside a declared object = value of the closest parent object
+this -> Call, Apply, Bind - Explicit binding - only be used by functions
+--- Call, Apply - invokes immediately
+--- args are passed as an array in Apply
+--- Bind - does not invoke immediately - returns function
+---Set timeout is an object on the Window, when this is within a declared object and also Set timeout, it's scope is global.
+
+---New keyword - creates new object
+
+---OOP - A programming model based around the idea of objects.
+   Classes -- objects are contructed from.
+   JS -- no classes but can mimic the idea using constructor functions
